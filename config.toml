@@ -1,0 +1,5 @@
+project_id = "cinerate"
+
+[functions.tmdb-refresh]
+verify_jwt = false
+entrypoint = "./functions/tmdb-refresh/index.ts"
